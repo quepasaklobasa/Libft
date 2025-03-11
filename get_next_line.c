@@ -54,7 +54,7 @@ char	*adjust_buffer(char *sbuf)
 		free(sbuf);
 		return (NULL);
 	}
-	nb = (char *)malloc((ft_g_strlen(sbuf) - i + 1) * sizeof(char));
+	nb = (char *)malloc((ft_gstrlen(sbuf) - i + 1) * sizeof(char));
 	if (!nb)
 	{
 		free(sbuf);
